@@ -4,13 +4,102 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		body{
+			width:1100px;
+		}
+		   table {
+			   border:2px solid black;
+            width: 100%;
+            height: 100vh; /* Full height of the viewport */
+            border-collapse: collapse; /* Optional, to remove spacing between cells */
+        }
+		td{
+			border:2px solid silver;
+			  vertical-align: middle; /* Ensure vertical alignment for all cells */
+		}
+		.whole{
+			background-color:lightgreen
+		}
+		.inner{
+			width:200px;
+			font-style:sans-serif;
+		}
+	.middle	{
+			width:600px;
+	text-align: center; /* Horizontal center */
+           
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<div class="whole">
+<div class="imageContainer">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREoRGyXmHy_6aIgXYqWHdOT3KjfmnuSyxypw&s">
+	</div>
+<table>
+	<tr>
+		<td>
+			<img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg" width="200px">
+		</td>
+		<td>
+			<div class="middle">
+				<h4>Unit #5-Floor Plans</h4>
+				<ol>
+				
+		
+					<li>Kitchen</li>
+						<li>Bathroom</li>
+						<li>Using "slabs"</li>
+						<li>Georgian Home</li>
+						<li>Sketching Assignment #5</li>
+				</ol>
+			</div>
+		</td>
+		<td>
+			<img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" width="200px">
+	</td>
+	</tr>
 
+	
+	<tr>
+		<td>
+<div class="inner">
+	<img class="imgs" src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" width="200px">
+	<p>The day had begun on a bright note. The sun finally peeked through the rain for the first time in a week, and the birds were sinf=ging in its warmth. There was no way to anticipate what was about to happen. It was a worst-case scenario and there was no way out of it.</p>
+</div>
+	
+</td>
+
+		<td>
+		<div class="middle">
+		<h4>Objective</h4>
+			<p>
+The "Objective" text is being shifted downwards because the td element that contains it doesn't have the appropriate height or vertical alignment styles to ensure the content is centered vertically within the cell.
+
+To fix this, you can ensure that the parent td element has vertical-align: middle; and set the height for the table rows to ensure they occupy the correct amount of space. Additionally, it's important to apply these styles directly to the table cell containing the "Objective" text.</p>
+		</div>
+			
+		</td>
+
+		<td>
+			<div>
+			<img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg" width="200px">
+				<p>
+Time complexity is a computational concept that quantifies the amount of time an algorithm takes to complete as a function of the size of its input. It provides a measure of the efficiency of an algorithm by describing the upper bound of the time required for its execution in the worst-case scenario. Efficient algorithms are those with lower time complexity, meaning they can process large inputs more quickly compared to algorithms with higher time complexity.</p>
+			</div>
+		</td>
+	</tr>
+	
+</table>
+
+
+		
+	</div>
 </body>
 
 </html>
